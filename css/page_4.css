@@ -15,8 +15,8 @@ body {
 .title-label {
     font-size: 2rem;
     color: #5D4037; 
-    margin-bottom: 20px;
     margin-top: 20px;
+    text-align: center;
 }
 .facts-table {
     width: 80%;

@@ -51,7 +51,7 @@
     transition: background-color 0.3s ease, transform 0.2s ease;
     text-decoration: none;
     display: inline-block;
-    margin: 5px 0 3px;
+    margin: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .styled-button:hover {
@@ -137,7 +137,7 @@ img {
     vertical-align: middle;
 }
 .carousel-image {
-    width: 700px;
+    width: 650px;
     height: 450px;
     margin-top: 20px;
     display: block;
@@ -194,5 +194,4 @@ img {
     justify-content: space-around;
     max-width: 1000px;
     margin: auto;
-    flex-wrap: wrap;
 }

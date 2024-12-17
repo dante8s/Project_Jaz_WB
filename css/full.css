@@ -31,7 +31,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.3rem;
+    padding: 10px;
 }
 
 .logo__link {
@@ -127,9 +127,10 @@ body {
 .footer {
     background-color: #BCAAA4; 
     color: #5D4037; 
-    padding: 10px 0;
+    padding: 5px 0;
     margin-top: auto; /* Додає автоматичне вирівнювання для футера */
     top: 0px;
+    width: 100%;
     
 }
 
@@ -137,7 +138,6 @@ body {
 
 .footer-column {
     flex: 1;
-    min-width: 200px;
     margin: 10px;
     text-align: center;
 }
@@ -162,7 +162,6 @@ body {
 .footer-bottom {
     border-top: 1px solid #8D6E63; 
     padding: 10px 0;
-    margin-top: 20px;
     text-align: center;
 }
 
@@ -181,4 +180,5 @@ li {
 
 .main{
     flex-grow: 1;
+    margin-top: 110px;
 }
