@@ -122,6 +122,9 @@ li {
         margin-right: 40px;
         margin-left: 40px;
         margin-bottom: 10px;
+       
+        background-size: cover; /* Зображення буде масштабуватись, щоб покрити весь фон */
+        background-position: center; /* Центр зображення */
         
         border: 3px solid #8D6E63; 
         border-radius: 10px;
