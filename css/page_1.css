@@ -109,57 +109,11 @@ input[type="submit"]:hover {
       flex-direction: column;
   }
 }
-.footer {
-  background-color: #BCAAA4; 
-  color: #5D4037; 
-  padding: 10px 0;
-}
 .footer-container {
   display: flex;
   justify-content: space-around;
   max-width: 1000px;
   margin: auto;
   flex-wrap: wrap;
+  
 }
-.footer-column {
-  flex: 1;
-  min-width: 200px;
-  margin: 10px;
-  text-align: center;
-}
-.footer-column p,
-.footer-column a {
-  color: #5D4037; 
-  text-decoration: none;
-  margin: 5px 0;
-}
-.footer-column a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.footer-column a i {
-  margin-right: 8px;
-}
-.footer-bottom {
-  border-top: 1px solid #8D6E63; 
-  padding: 10px 0;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.footer-bottom p {
-  margin: 0;
-}
-.emsoc{
-margin-bottom: 20px;
-
-}
-.footer-container {
-  display: flex;
-  justify-content: space-around;
-  max-width: 1000px;
-  margin: auto;
-  flex-wrap: wrap;
-}
-
