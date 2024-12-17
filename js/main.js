@@ -50,3 +50,4 @@ function copyPhoneToClipboard() {
       console.error('Не вдалося скопіювати: ', err);
   });
 }
+
