@@ -1,4 +1,5 @@
 
+
 .blok_1 {
     display: flex;
     flex-direction: row;
@@ -90,7 +91,10 @@
     flex-wrap: wrap;
     border: 3px solid #8D6E63; 
     border-radius: 10px;
-    background-color: #BCAAA4; 
+    
+        background-color: rgba(188, 170, 164, 0.7); /* колір #BCAAA4 з прозорістю 70% */
+
+    
     margin: 20px 400px;
     padding: 20px;
     min-width: 300px;
@@ -98,13 +102,19 @@
 li {
     margin-bottom: 10px;
 }
+:root {
+    --fill-layer-background-media-position: fixed;
+}
+
 .back_foto{
-    background-image: url("/img/photo_2024-12-07_21-27-48.jpg");
-    background-size: cover;
-    background-position: center;
-    position: relative;
+
+        background-image: url(../img/photo_2024-12-11_12-05-42.jpg); /* Вкажіть шлях до вашого зображення */
+        background-attachment: var(--fill-layer-background-media-position);
+        background-size: cover; /* Зображення буде масштабуватись, щоб покрити весь фон */
+        background-position: center; /* Центр зображення */
+    
     padding: 30px 20px 20px 20px;
-    margin-top: 7px;
+   
     margin-bottom: 20px;
 }
 @media (max-width: 1500px) {
@@ -112,10 +122,10 @@ li {
         margin-right: 40px;
         margin-left: 40px;
         margin-bottom: 10px;
-        margin-top: 10px;
+        
         border: 3px solid #8D6E63; 
         border-radius: 10px;
-        background-color: #BCAAA4; 
+        background-color: rgba(188, 170, 164, 0.7); /* колір #BCAAA4 з прозорістю 70% */
     }
     li {
         margin-bottom: 5px;
