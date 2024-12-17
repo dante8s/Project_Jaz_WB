@@ -5,7 +5,7 @@ function myFunction(x){
   ("click", function() {
     document.querySelector(".nav-items").classList.toggle("hide-show")
   })
-  ///s
+ 
   function copyEmailToClipboard() {
     const email = 'example@example.com';
     navigator.clipboard.writeText(email).then(() => {
