@@ -117,14 +117,14 @@ li {
    
     margin-bottom: 20px;
 }
+
+
 @media (max-width: 1500px) {
     .ul {
         margin-right: 40px;
         margin-left: 40px;
         margin-bottom: 10px;
-       
-        background-size: cover; /* Зображення буде масштабуватись, щоб покрити весь фон */
-        background-position: center; /* Центр зображення */
+
         
         border: 3px solid #8D6E63; 
         border-radius: 10px;
