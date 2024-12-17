@@ -50,7 +50,5 @@ function copyPhoneToClipboard() {
       console.error('Не вдалося скопіювати: ', err);
   });
 }
-if (/Mobi|Android/i.test(navigator.userAgent) || window.innerWidth <= 768) {
-  document.querySelector('.back_foto').style.backgroundAttachment = 'scroll';
-}
+
 
