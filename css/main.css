@@ -1,5 +1,6 @@
 
 
+/* Styles for the main container with blocks */
 .blok_1 {
     display: flex;
     flex-direction: row;
@@ -8,38 +9,49 @@
     border: 3px solid #a1887f; 
     margin-left: 30px;
     margin-right: 30px;
-  }
-  .blok_1 .image_box {
+}
+
+/* Styles for the image container inside the main container */
+.blok_1 .image_box {
     order: 1;
-  }
-  .blok_1 .text_box {
+}
+
+/* Styles for the text container inside the main container */
+.blok_1 .text_box {
     order: 2;
     flex: 1 1 0%;
     padding: 10px;
-  }
-  .blok_1 .text_box h1,
-  .blok_1 .text_box h2 {
+}
+
+/* Padding for headers in the text container */
+.blok_1 .text_box h1,
+.blok_1 .text_box h2 {
     padding-bottom: 10px;
-  }
-  
-  .blok_1 .image_box img {
+}
+
+/* Image fills the maximum available width */
+.blok_1 .image_box img {
     max-width: 100%;
-  }
-  
-  @media screen and (min-width: 640px) {
+}
+
+/* Adaptive styles for wider screens */
+@media screen and (min-width: 640px) {
     .blok_1 .text_box {
-      order: 1;
+        order: 1;
     }
     .blok_1 .image_box {
-      order: 2;
-      max-width: 200px;
-      
+        order: 2;
+        max-width: 200px;
     }
-  }
-  .biografia{
+}
+
+/* Centering biography */
+.biografia {
     display: flex;
     justify-content: center;
-  }
+}
+
+/* Styles for the button */
 .styled-button {
     background-color: #A1887F; 
     color: white;
@@ -55,20 +67,26 @@
     margin: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* Effects for the button on hover */
 .styled-button:hover {
     background-color: #D7CCC8; 
     transform: translateY(-2px);
 }
+
+/* Effects for the button on active */
 .styled-button:active {
     background-color: #8D6E63; 
     transform: translateY(2px);
 }
-.icon{
+
+/* Styles for icons */
+.icon {
     text-decoration: none;
     color: #8D6E63;
-    
-    
 }
+
+/* Container for social icons */
 .social-icons {
     margin: 20px;
     text-decoration: none;
@@ -76,82 +94,95 @@
     flex-direction: row;
     gap: 5px;
 }
-.button-and-icons{
+
+/* Container for buttons and icons */
+.button-and-icons {
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
+
+/* Styles for the second-level header */
 .second {
     display: flex;
     margin-bottom: 10px;
     font-size: 2.1rem;
 }
+
+/* Styles for the list */
 .ul {
     justify-content: center;
     flex-wrap: wrap;
     border: 3px solid #8D6E63; 
     border-radius: 10px;
-    
-        background-color: rgba(188, 170, 164, 0.7); /* колір #BCAAA4 з прозорістю 70% */
-
-    
+    background-color: rgba(188, 170, 164, 0.7); /* color #BCAAA4 with 70% transparency */
     margin: 20px 400px;
     padding: 20px;
     min-width: 300px;
 }
+
+/* Styles for list items */
 li {
     margin-bottom: 10px;
 }
+
+/* Root element variables */
 :root {
     --fill-layer-background-media-position: fixed;
 }
 
-.back_foto{
-
-        background-image: url(../img/photo_2024-12-11_12-05-42.jpg); /* Вкажіть шлях до вашого зображення */
-        background-attachment: var(--fill-layer-background-media-position);
-        background-size: cover; /* Зображення буде масштабуватись, щоб покрити весь фон */
-        background-position: center; /* Центр зображення */
-    
+/* Styles for background image */
+.back_foto {
+    background-image: url(../img/photo_2024-12-11_12-05-42.jpg); /* Specify the path to your image */
+    background-attachment: var(--fill-layer-background-media-position);
+    background-size: cover; /* The image will be scaled to cover the entire background */
+    background-position: center; /* Center the image */
     padding: 30px 20px 20px 20px;
-   
     margin-bottom: 20px;
 }
 
-
-
-
+/* Adaptive styles for background image on smaller screens */
 @media (max-width: 1350px) {
-    .back_foto{
-        background-attachment:scroll;}
+    .back_foto {
+        background-attachment: scroll;
+    }
     .ul {
         margin-right: 40px;
         margin-left: 40px;
         margin-bottom: 10px;
-
         border: 3px solid #8D6E63; 
         border-radius: 10px;
-        background-color: rgba(188, 170, 164, 0.7); /* колір #BCAAA4 з прозорістю 70% */
+        background-color: rgba(188, 170, 164, 0.7); /* color #BCAAA4 with 70% transparency */
     }
     li {
         margin-bottom: 5px;
     }
 }
+
+/* Centering testimonials headers */
 .respons {
     text-align: center;
 }
+
+/* Styles for slideshow container */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
 }
+
+/* Hide slides by default */
 .mySlides {
     display: none;
     text-align: center;
 }
+
+/* Vertically align images to the middle */
 img {
     vertical-align: middle;
 }
+
+/* Styles for images in the slideshow */
 .carousel-image {
     width: 650px;
     height: 450px;
@@ -159,8 +190,10 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 8px;
+    border-radius: 8px; /* Rounded corners for the image */
 }
+
+/* Adaptive styles for images in the slideshow on smaller screens */
 @media (max-width: 768px) {
     .carousel-image {
         width: 340px;
@@ -168,6 +201,8 @@ img {
         margin-top: 20px;
     }
 }
+
+/* Styles for the previous and next buttons */
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -182,13 +217,19 @@ img {
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
+
+/* Styles for the next button */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
+
+/* Hover effects for the previous and next buttons */
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
+
+/* Styles for the dots navigation */
 .dot {
     cursor: pointer;
     height: 15px;
@@ -199,20 +240,28 @@ img {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
+
+/* Active and hover effects for the dots navigation */
 .active, .dot:hover {
     background-color: #717171;
 }
+
+/* Centering the dots navigation */
 .bodky {
     text-align: center;
     margin: 15px 0;
 }
+
+/* Styles for the footer container */
 .footer-container {
     display: flex;
     justify-content: space-around;
     max-width: 1000px;
     margin: auto;
 }
-.main{
+
+/* Styles for the main container with background image */
+.main {
     background-image: url(../img/photo_2024-12-07_21-26-08.jpg);
     background-size: cover;
-  }
+}

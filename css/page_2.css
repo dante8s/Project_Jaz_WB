@@ -1,4 +1,5 @@
 
+/* Styles for the courses container */
 .courses-container {
   display: flex;
   justify-content: space-around;
@@ -6,9 +7,10 @@
   padding: 20px;
 }
 
+/* Styles for each course block */
 .course {
-  background-color: #D7CCC8; /* Схоже на колір фону футера */
-  border: 1px solid #8D6E63; /* Відтінок коричневого, подібний до кольору тексту у футері */
+  background-color: #D7CCC8; 
+  border: 1px solid #8D6E63; 
   border-radius: 5px;
   width: 45%;
   margin: 10px;
@@ -17,100 +19,118 @@
   transition: transform 0.2s;
 }
 
+/* Hover effect for course block */
 .course:hover {
   transform: translateY(-10px);
 }
 
+/* Styles for course title */
 .course h2 {
-  color: #5D4037; /* Темно-коричневий */
+  color: #5D4037; 
 }
 
+/* Styles for course subtitle */
 .course h3 {
-  color: #8D6E63; /* Відтінок коричневого */
+  color: #8D6E63; 
 }
 
+/* Styles for course detail */
 .course h4 {
-  color: #6D4C41; /* Темний коричневий */
+  color: #6D4C41; 
 }
 
+/* Styles for the course list */
 .course ul {
   list-style-type: none;
   padding: 0;
 }
 
+/* Styles for each list item in the course list */
 .course ul li {
-  background-color: #F5F5F5; /* Світло-сірий */
+  background-color: #F5F5F5; 
   margin: 5px 0;
   padding: 10px;
   border-radius: 3px;
 }
 
+/* Styles for the testimonials container */
 .testimonials-container {
-  background-color: #D7CCC8; /* Схоже на колір фону футера */
-  border: 1px solid #8D6E63; /* Відтінок коричневого */
+  background-color: #D7CCC8; 
+  border: 1px solid #8D6E63; 
   border-radius: 5px;
   padding: 20px;
   margin: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Styles for the testimonials header */
 .testimonials-container h2 {
-  color: #5D4037; /* Темно-коричневий */
+  color: #5D4037; 
   text-align: center;
 }
 
+/* Styles for each testimonial */
 .testimonial {
-  background-color: #D3D3D3; /* Світло-сірий */
+  background-color: #D3D3D3; 
   border-radius: 8px;
   padding: 15px;
   margin: 10px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Styles for paragraphs in testimonials */
 .testimonial p {
   margin: 5px 0;
-  color: #6D4C41; /* Темний коричневий */
+  color: #6D4C41; 
 }
 
+/* Styles for the last paragraph in testimonials */
 .testimonial p:last-child {
   font-style: italic;
   text-align: right;
 }
 
+/* Styles for the course list */
 .course ul {
   list-style-type: none;
   padding: 0;
 }
 
+/* Styles for each list item in the course list */
 .course ul li {
-  background-color: #D3D3D3; /* Світло-сірий */
+  background-color: #D3D3D3; 
   margin: 5px 0;
   padding: 10px;
   border-radius: 8px;
-
 }
 
+/* Styles for the proposition container */
 .proposition {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
+/* Styles for the testimonials container */
 .testimonials-container {
   margin-right: 50px; 
   margin-left: 50px;
 }
 
+/* Responsive styles for the course on smaller screens */
 @media screen and (max-width: 600px) {
   .course {
     width: 90%;
   }
 }
 
+
 .main {
   background-image: url(../img/photo_2024-12-07_21-27-48.jpg);
   background-size: cover;
 }
+
+
 .footer-container {
   display: flex;
   justify-content: space-around;
