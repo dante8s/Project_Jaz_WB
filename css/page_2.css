@@ -1,113 +1,119 @@
 
-  .courses-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
-  }
-  
+.courses-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.course {
+  background-color: #D7CCC8; /* Схоже на колір фону футера */
+  border: 1px solid #8D6E63; /* Відтінок коричневого, подібний до кольору тексту у футері */
+  border-radius: 5px;
+  width: 45%;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.course:hover {
+  transform: translateY(-10px);
+}
+
+.course h2 {
+  color: #5D4037; /* Темно-коричневий */
+}
+
+.course h3 {
+  color: #8D6E63; /* Відтінок коричневого */
+}
+
+.course h4 {
+  color: #6D4C41; /* Темний коричневий */
+}
+
+.course ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course ul li {
+  background-color: #F5F5F5; /* Світло-сірий */
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.testimonials-container {
+  background-color: #D7CCC8; /* Схоже на колір фону футера */
+  border: 1px solid #8D6E63; /* Відтінок коричневого */
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-container h2 {
+  color: #5D4037; /* Темно-коричневий */
+  text-align: center;
+}
+
+.testimonial {
+  background-color: #D3D3D3; /* Світло-сірий */
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  margin: 5px 0;
+  color: #6D4C41; /* Темний коричневий */
+}
+
+.testimonial p:last-child {
+  font-style: italic;
+  text-align: right;
+}
+
+.course ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course ul li {
+  background-color: #D3D3D3; /* Світло-сірий */
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+
+}
+
+.proposition {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.testimonials-container {
+  margin-right: 50px; 
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
   .course {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 45%;
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+    width: 90%;
   }
-  
-  .course:hover {
-    transform: translateY(-10px);
-  }
-  
-  .course h2 {
-    color: #333;
-  }
-  
-  .course h3 {
-    color: #4CAF50;
-  }
-  
-  .course h4 {
-    color: #555;
-  }
-  
-  .course ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .course ul li {
-    background-color: #f9f9f9;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 3px;
-  }
-  
-  .testimonials-container {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .testimonials-container h2 {
-    color: #333;
-    text-align: center;
-  }
-  
-  .testimonial {
-    background-color: #f9f9f9;
-    border-radius: 3px;
-    padding: 15px;
-    margin: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .testimonial p {
-    margin: 5px 0;
-    color: #555;
-  }
-  
-  .testimonial p:last-child {
-    font-style: italic;
-    text-align: right;
-  }
-  
-  
-  .course ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .course ul li {
-    background-color: #f9f9f9;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 3px;
-  }
-  .proposition{
-   display: flex;
-   justify-content: center;
-   margin-top: 20px;
-   
-  }
-  .testimonials-container{
-    margin-right: 50px; 
-    margin-left: 50px;
-  }
-  @media screen and (max-width: 600px){
-    .course{
-     width: 90%;
-    }
-  }
-  .footer-container {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1000px;
-    margin: auto;
-    flex-wrap: wrap;
+}
+
+.main {
+  background-image: url(../img/photo_2024-12-07_21-27-48.jpg);
+  background-size: cover;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: auto;
 }

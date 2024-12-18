@@ -9,7 +9,7 @@
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
-        background-color: rgba(255, 255, 255, 0.8); /* білий колір з прозорістю 70% */
+ background-color: rgba(255, 255, 255, 0.8); /* білий колір з прозорістю 70% */
     
     
     display: block; 
@@ -60,4 +60,5 @@ input[type="submit"]:hover {
 }
 .main{
     background-image: url(../img/photo_2024-12-07_21-27-48.jpg);
+    background-size: cover;
 }

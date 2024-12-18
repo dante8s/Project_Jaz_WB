@@ -116,3 +116,7 @@ input[type="submit"]:hover {
   margin: auto;
   flex-wrap: wrap;
 }
+.main{
+  background-image: url(../img/photo_2024-12-07_21-27-48.jpg);
+  background-size: cover;
+}
